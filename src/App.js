@@ -2,8 +2,8 @@ import React from 'react'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import MyComponent1 from './MyComponent1'
-import OverlayExample from './OverlayExample'
+import AlgoliaTest from './AlgoliaTest'
+// import OverlayExample from './OverlayExample'
 
 function App () {
   return (
@@ -11,11 +11,11 @@ function App () {
       <Container className='my-4'>
         <Row>
           <Col className='border mx-4'>
-            <MyComponent1 />
+            <AlgoliaTest />
           </Col>
-          <Col className='border mx-4'>
+          {/* <Col className='border mx-4'>
             <OverlayExample />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </div>
