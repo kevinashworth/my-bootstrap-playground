@@ -19,15 +19,14 @@ const Hits = ({ hits }) => {
         {hits.length === 0
           ? <Dropdown.Item disabled>No search results</Dropdown.Item>
           : hits.map((hit) => {
-              return (
-                <Dropdown.Item key={hit.objectID}>
-                  <Highlight attribute='name' hit={hit} /><br />
-                  <small className='text-muted'><Snippet attribute='body' hit={hit} /></small>
-                </Dropdown.Item>
-              )
-            }
-          )}
-        </Dropdown.Menu>
+            return (
+              <Dropdown.Item key={hit.objectID}>
+                <Highlight attribute='name' hit={hit} /><br />
+                <small className='text-muted'><Snippet attribute='body' hit={hit} /></small>
+              </Dropdown.Item>
+            )
+          })}
+      </Dropdown.Menu>
     </>
   )
 }
@@ -37,8 +36,8 @@ const CustomHits = connectHits(Hits)
 const CustomSearchResults = connectStateResults(
   ({ searchState }) =>
     searchState && searchState.query
-    ? <CustomHits />
-    : null
+      ? <CustomHits />
+      : null
 )
 
 const SearchBox = ({ currentRefinement, refine }) => {
@@ -52,7 +51,7 @@ const SearchBox = ({ currentRefinement, refine }) => {
   )
 }
 
-const CustomSearchBox = connectSearchBox(SearchBox);
+const CustomSearchBox = connectSearchBox(SearchBox)
 
 const AlgoliaTest = () => {
   const [show, setShow] = useState(false)
