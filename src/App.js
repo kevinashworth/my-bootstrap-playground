@@ -14,7 +14,6 @@ function App () {
             <AlgoliaTest />
           </Col>
           {/* <Col className='border mx-4'>
-            <OverlayExample />
           </Col> */}
         </Row>
       </Container>
