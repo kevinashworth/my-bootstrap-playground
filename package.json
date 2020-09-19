@@ -4,10 +4,10 @@
   "private": true,
   "dependencies": {
     "@restart/hooks": "^0.3.25",
-    "@testing-library/jest-dom": "^5.11.3",
-    "@testing-library/react": "^10.4.8",
-    "@testing-library/user-event": "^12.1.1",
-    "algoliasearch": "^4.4.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.0.4",
+    "@testing-library/user-event": "^12.1.5",
+    "algoliasearch": "^4.5.1",
     "bootstrap": "^4.5.2",
     "lodash": "^4.17.20",
     "react": "^16.13.1",
@@ -17,7 +17,7 @@
     "react-overlays": "^4.1.0",
     "react-scripts": "^3.4.3",
     "standard": "^14.3.4",
-    "styled-components": "^5.1.1"
+    "styled-components": "^5.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
