@@ -6,7 +6,7 @@
     "@restart/hooks": "^0.3.25",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.0.4",
-    "@testing-library/user-event": "^12.1.5",
+    "@testing-library/user-event": "^12.1.6",
     "algoliasearch": "^4.5.1",
     "bootstrap": "^4.5.2",
     "lodash": "^4.17.20",
