@@ -46,7 +46,7 @@ const SearchBox = ({ currentRefinement, refine }) => {
   return (
     <FormControl
       onChange={event => refine(event.currentTarget.value)}
-      placeholder='Search all of V8…'
+      placeholder='Search…'
       type='search'
       value={currentRefinement}
     />

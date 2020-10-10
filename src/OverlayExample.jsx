@@ -4,7 +4,6 @@ import Card from 'react-bootstrap/Card'
 import ListGroup from 'react-bootstrap/ListGroup'
 import Tooltip from 'react-bootstrap/Tooltip'
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
-// import MyComponent1 from './MyComponent1'
 
 function renderTooltip (props) {
   return (

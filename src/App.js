@@ -3,7 +3,8 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import AlgoliaTest from './AlgoliaTest'
-// import OverlayExample from './OverlayExample'
+import CardExample from './CardExample'
+import OverlayExample from './OverlayExample'
 
 function App () {
   return (
@@ -13,8 +14,12 @@ function App () {
           <Col className='border mx-4'>
             <AlgoliaTest />
           </Col>
-          {/* <Col className='border mx-4'>
-          </Col> */}
+          <Col className='border mx-4'>
+            <OverlayExample />
+          </Col>
+          <Col className='border mx-4'>
+            <CardExample />
+          </Col>
         </Row>
       </Container>
     </div>
