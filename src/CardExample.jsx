@@ -1,12 +1,11 @@
 import React from 'react'
-// import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
 
-const MyComponent1 = (props) => {
+const CardExample = (props) => {
   console.log('props:', props)
   return (
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant='top' src='https://loremflickr.com/320/240/girl' width='320' height='240' />
+      <Card.Img variant='top' src='http://placekitten.com/320/240' />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
@@ -19,4 +18,4 @@ const MyComponent1 = (props) => {
   )
 }
 
-export default MyComponent1
+export default CardExample
