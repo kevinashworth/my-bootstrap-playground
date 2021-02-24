@@ -3,8 +3,8 @@ import Dropdown from 'react-bootstrap/Dropdown'
 import FormControl from 'react-bootstrap/FormControl'
 import algoliasearch from 'algoliasearch/lite'
 import { connectHits, connectPoweredBy, connectSearchBox, connectStateResults, Highlight, InstantSearch, Snippet } from 'react-instantsearch-dom'
-import useBreakpoint from '@restart/hooks/useBreakpoint'
-import useMediaQuery from '@restart/hooks/useMediaQuery'
+import useBreakpoint from './hooks/useBreakpoint'
+import useMediaQuery from './hooks/useMediaQuery'
 
 const searchClient = algoliasearch('latency', '6be0576ff61c053d5f9a3225e2a90f76')
 
