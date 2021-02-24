@@ -1,9 +1,10 @@
 import React from 'react'
 import { render } from '@testing-library/react'
+import './matchMedia.mock.js'
 import App from './App'
 
-test('renders learn react link', () => {
+test('renders a bootstrap link', () => {
   const { getByText } = render(<App />)
-  const linkElement = getByText(/learn react/i)
+  const linkElement = getByText(/bootstrap/i)
   expect(linkElement).toBeInTheDocument()
 })
