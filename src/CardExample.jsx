@@ -9,7 +9,7 @@ const CardExample = (props) => {
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
-          <p>Eum neque placeat et cumque voluptates? Ad deleniti dolorem <em>et dolor</em> nam consectetur Quis. Eum galisum esse <strong>nam odit non tempora explicabo id optio tempora</strong> qui vero ducimus et consequatur iste qui laudantium voluptatem.</p>
+          <>Eum neque placeat et cumque voluptates? Ad deleniti dolorem <em>et dolor</em> nam consectetur Quis. Eum galisum esse <strong>nam odit non tempora explicabo id optio tempora</strong> qui vero ducimus et consequatur iste qui laudantium voluptatem.</>
         </Card.Text>
         <Card.Link href='https://react-bootstrap.github.io/'>React Bootstrap</Card.Link>
         <Card.Link href='https://react-bootstrap.github.io/react-overlays/'>React Overlays</Card.Link>
