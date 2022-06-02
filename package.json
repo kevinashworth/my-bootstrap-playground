@@ -13,7 +13,7 @@
     "react-bootstrap": "2.3.0",
     "react-dom": "17.0.2",
     "react-instantsearch-dom": "6.23.4",
-    "react-overlays": "5.1.1",
+    "react-overlays": "5.2.0",
     "react-scripts": "4.0.3",
     "standard": "17.0.0",
     "styled-components": "5.3.5"
