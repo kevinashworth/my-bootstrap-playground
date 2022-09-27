@@ -16,7 +16,7 @@
     "react-overlays": "5.1.1",
     "react-scripts": "4.0.3",
     "standard": "17.0.0",
-    "styled-components": "5.3.5"
+    "styled-components": "5.3.6"
   },
   "scripts": {
     "start": "react-scripts start",
