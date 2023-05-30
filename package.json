@@ -15,7 +15,7 @@
     "react-instantsearch-dom": "6.39.0",
     "react-overlays": "5.2.1",
     "react-scripts": "4.0.3",
-    "standard": "17.0.0",
+    "standard": "17.1.0",
     "styled-components": "5.3.6"
   },
   "scripts": {
