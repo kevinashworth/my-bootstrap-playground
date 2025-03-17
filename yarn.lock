@@ -9349,7 +9349,7 @@ __metadata:
     react-overlays: "npm:5.2.1"
     react-scripts: "npm:5.0.1"
     standard: "npm:17.1.2"
-    styled-components: "npm:6.1.15"
+    styled-components: "npm:6.1.16"
     web-vitals: "npm:4.2.4"
   languageName: unknown
   linkType: soft
@@ -12605,9 +12605,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"styled-components@npm:6.1.15":
-  version: 6.1.15
-  resolution: "styled-components@npm:6.1.15"
+"styled-components@npm:6.1.16":
+  version: 6.1.16
+  resolution: "styled-components@npm:6.1.16"
   dependencies:
     "@emotion/is-prop-valid": "npm:1.2.2"
     "@emotion/unitless": "npm:0.8.1"
@@ -12621,7 +12621,7 @@ __metadata:
   peerDependencies:
     react: ">= 16.8.0"
     react-dom: ">= 16.8.0"
-  checksum: 10/54b70e40baa94b99e2a01945bd0589dabd356fb0a5a6d503372d5e920db27444564f4fb9a137423c0a65bd7c1a4e1024a44a6b2c7b162ae5daf2b042f9dc086d
+  checksum: 10/ed7178c31a205a1f29ef99fa2799501cb51f52cb431d960afc90184f4c3f7c2d83debeae6d417e795c03e0b91448113acda10201d8060696acfd0a2e608b8cb5
   languageName: node
   linkType: hard
 
