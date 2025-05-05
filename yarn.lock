@@ -4162,12 +4162,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bootstrap@npm:5.3.3":
-  version: 5.3.3
-  resolution: "bootstrap@npm:5.3.3"
+"bootstrap@npm:5.3.6":
+  version: 5.3.6
+  resolution: "bootstrap@npm:5.3.6"
   peerDependencies:
     "@popperjs/core": ^2.11.8
-  checksum: 10/f05183948b00b496400cc13df5798ecab7a85975e7d9a77b314a763b574a990aec0f1bbf1913c648a93b5d8cc82e73bc05f5ec1161d2932aad7ef7f316d9c82d
+  checksum: 10/843773c43c2aa51da6e6e5d8d117b29a9f834a7f64471c907ff9dc77c918802d107d139602f86b5899b58d39b352fb91e5317f3f184ce4d60b3264fd30bc62d7
   languageName: node
   linkType: hard
 
@@ -9341,7 +9341,7 @@ __metadata:
     "@testing-library/jest-dom": "npm:6.6.3"
     "@testing-library/react": "npm:16.2.0"
     "@testing-library/user-event": "npm:14.6.1"
-    bootstrap: "npm:5.3.3"
+    bootstrap: "npm:5.3.6"
     lodash: "npm:4.17.21"
     react: "npm:^19.0.0"
     react-bootstrap: "npm:2.10.9"
