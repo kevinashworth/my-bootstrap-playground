@@ -9344,7 +9344,7 @@ __metadata:
     bootstrap: "npm:5.3.3"
     lodash: "npm:4.17.21"
     react: "npm:^19.0.0"
-    react-bootstrap: "npm:2.10.9"
+    react-bootstrap: "npm:2.10.10"
     react-dom: "npm:^19.0.0"
     react-overlays: "npm:5.2.1"
     react-scripts: "npm:5.0.1"
@@ -11100,9 +11100,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-bootstrap@npm:2.10.9":
-  version: 2.10.9
-  resolution: "react-bootstrap@npm:2.10.9"
+"react-bootstrap@npm:2.10.10":
+  version: 2.10.10
+  resolution: "react-bootstrap@npm:2.10.10"
   dependencies:
     "@babel/runtime": "npm:^7.24.7"
     "@restart/hooks": "npm:^0.4.9"
@@ -11124,7 +11124,7 @@ __metadata:
   peerDependenciesMeta:
     "@types/react":
       optional: true
-  checksum: 10/aaa923af1cf724471f8c9dd7aa365b0e5556cb3aa63b023912353b6874d7f274b4362a9b97df91fb0c04e998c7a49fa8c5e071f3ba468e888afa26b2d0d27ca2
+  checksum: 10/0ed950e0705779312bc625a422d86981c3dbf5d53ff5a038983dee70463c66430b6f3ccac08dd8129665952745e151ff8c35c7dd48a4de89d8322e8cbc23337b
   languageName: node
   linkType: hard
 
