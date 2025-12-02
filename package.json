@@ -1,29 +1,31 @@
 {
   "name": "my-bootstrap-playground",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "private": true,
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "lint": "standard 'src/**/*.js' 'src/**/*.jsx'",
+    "lint-fix": "standard --fix 'src/**/*.js' 'src/**/*.jsx'"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "6.9.1",
     "@testing-library/react": "16.3.0",
     "@testing-library/user-event": "14.6.1",
     "bootstrap": "5.3.8",
     "lodash": "4.17.21",
-    "react": "^19.0.0",
+    "react": "^19.2.0",
     "react-bootstrap": "2.10.10",
-    "react-dom": "^19.0.0",
+    "react-dom": "^19.2.0",
     "react-overlays": "5.2.1",
-    "react-scripts": "5.0.1",
     "standard": "17.1.2",
     "styled-components": "6.1.19",
     "web-vitals": "5.1.0"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "lint": "standard 'src/**/*.js' 'src/**/*.jsx'",
-    "lint-fix": "standard --fix 'src/**/*.js' 'src/**/*.jsx'"
+  "devDependencies": {
+    "@vitejs/plugin-react": "5.1.1",
+    "vite": "7.2.6"
   },
   "eslintConfig": {
     "extends": [
